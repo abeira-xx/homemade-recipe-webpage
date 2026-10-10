@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  "Helvetica Neue", Arial, sans-serif;
+    background-color: #fbf7f2;
+    color: #44352d;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #765436;
+}
+
+body > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 18px 25px;
+    background-color: #fffdf9;
+    border-bottom: 1px solid #e9ddd1;
+    box-shadow: 0 3px 12px rgba(65, 45, 32, 0.05);
+}
+
+body > nav a {
+    color: #654936;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+body > nav a:hover {
+    color: #bd7956;
+}
+
+.home {
+    min-height: 400px;
+    padding: 70px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ead0b9;
+}
+
+.home-card {
+    width: 100%;
+    max-width: 850px;
+    padding: 55px 30px;
+}
+
+.home-card h1 {
+    color: #65412f;
+    font-family: Georgia, serif;
+    font-size: 3.3rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.recipe-intro {
+    padding: 65px 25px 40px;
+    text-align: center;
+}
+
+.recipe-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.recipe-content > h2 {
+    color: #67442f;
+    font-family: Georgia, serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.recipe-content > p {
+    color: #837368;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.recipe-intro nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.recipe-intro nav a {
+    padding: 9px 21px;
+    border: 1px solid #d9c5b3;
+    border-radius: 30px;
+    background-color: #fffdf9;
+    color: #79553e;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.recipe-intro nav a:hover {
+    background-color: #79513a;
+    color: rgb(0, 0, 0);
+    border-color: #79513a;
+    transform: translateY(-3px);
+}
+
+.recipe {
+    width: 100%;
+    max-width: 1050px;
+    margin: 30px auto;
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    background-color: #fffdf9;
+    border: 1px solid #eee3d8;
+    border-radius: 16px;
+    box-shadow: 0 6px 22px rgba(73, 48, 31, 0.06);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 10px 28px rgba(73, 48, 31, 0.10);
+    transform: translateY(-2px);
+}
+
+.recipe-card h2 {
+    color: #704832;
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.recipe-card .description {
+    color: #796b60;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.recipe-card .ingredients {
+    padding-left: 24px;
+    margin-bottom: 25px;
+    color: #51443a;
+}
+
+.recipe-card .ingredients li {
+    padding-left: 5px;
+    margin-bottom: 7px;
+}
+
+.recipe-card .ingredients li::marker {
+    color: #b87957;
+}
+
+.recipe-card .recipe-image {
+    width: 100%;
+    height: 450px;;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    margin-top: 5px;
+    background-color: #f0e5da;
+    transition: transform 0.4s ease;
+}
+
+.recipe-card .recipe-image:hover {
+    transform: scale(1.015);
+}
+
+.contact {
+    margin-top: 80px;
+    padding: 45px 25px;
+    background-color: #543a2d;
+    color: #f8eee4;
+    text-align: center;
+}
+
+.contact h3 {
+    color: #fff6eb;
+    font-family: Georgia, serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #dfcbbb;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.contact address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-style: normal;
+}
+
+.contact-link {
+    color: #f2ddc9;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: white;
+    text-decoration: underline;
+}
