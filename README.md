@@ -31,7 +31,7 @@ The webpage includes a navigation menu, home-section, recipe section and the lin
 ## 5. What I Learned and What Challenges I Faced
 
 While developing the page, I practiced stucturing the webpage content with HTML and styling them with CSS. Oraganizing the project files, Adding the images, Adding links, Using navigation links to connect with differenty sections.
-At first, I found box-shadow and transform properties interesting but difficult to understand. After practicing them and putting efforts , I learned how to use translateX, translateY, transition, scale, and skew. It took time, but practising helped me understand these properties and use them to make my projects more attractive and visually appealing.
+At first, I found box-shadow and transform properties interesting but difficult to understand. After practicing them and putting efforts , I learned how to use translateX, translateY, transition, scale, and skew properly. I also thought these CSS properties would be easy to learn, but when I practised them myself, I realized that they take time to understand properly. *My curiosity motivates me to explore how and why things work like this, finding answers to my questions, and understand concepts more deeply*. It took time, but practising helped me understand these properties and use them to make my projects more attractive and visually appealing.
 Another Challenge i had gone through is uploading images in github. At first, It was seriously frutrated but we learn from our mistakes, after countless tries i got to know the correct method of uploading the images and their apperaance in github pages.
 
 ## Live Demo
